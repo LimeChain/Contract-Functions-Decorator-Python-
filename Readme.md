@@ -26,8 +26,10 @@ Usage:
  
  - Non empty-params  
  
-     ```result = contract.calcSum(1, 2);  
-     print(result) => sum```  
+     ```python
+     result = contract.calcSum(1, 2);  
+     print(result) => sum
+     ```  
      
  * Usage of sing-function:  
 
