@@ -16,11 +16,13 @@ Usage:
 * Usage of constant function:  
 
   - Empty-params  
-   ```result = contract.getSmth();  
-   print(result) => smth```
+  
+  ```result = contract.getSmth();  
+     print(result) => smth```
  
  - Non empty-params  
-     ```result = contract.calcSum(1, 2);  
+ 
+  ```result = contract.calcSum(1, 2);  
      print(result) => sum```  
      
 * Usage of sing-function:  
@@ -37,12 +39,12 @@ If you want to specify a certain gas or your function is payable, add:
 ```contract.addData(data, private_key="your private key", value=your value, gas=your gas);```
 
 If you do not specify a tag, the default values are:  
-    &lt;Gas = 5x00000  
-    &lt;Value = 0  
+    Gas = 5x00000  
+    Value = 0  
 
 **The default network properties are:**  
-    &lt;Chain id = 4 (Rinkeby)  
-    &lt;Gas_price = 20gwei
+    Chain id = 4 (Rinkeby)  
+    Gas_price = 20gwei
 
 ---
 1) If you want to change them at instance level, you could do:
