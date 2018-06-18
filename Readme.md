@@ -13,25 +13,24 @@ Usage:
 
  ```contract = ContractInstance('contract_json_file', contract_address, eth, web3)```
 
-* Usage of constant function:
+* Usage of constant function:  
 
-  - Empty-params   
+  - Empty-params  
   
    ```result = contract.getSmth();  
-   print(result) => smth 
+   print(result) => smth  
  
-  - Non empty-params
+  - Non empty-params  
 
-     ```result = contract.calcSum(1, 2);   
-     print(result) => sum```
+     ```result = contract.calcSum(1, 2);  
+     print(result) => sum```  
      
- * Usage of sing-function:     
+ * Usage of sing-function:  
 
-  - Empty-params   
+  - Empty-params  
 
-result = contract.addData(data, private_key="your private key");   
-print(result) => transaction hash   
-
+   ```result = contract.addData(data, private_key="your private key");   
+   print(result) => transaction hash```  
 
 
 **Note!** Private key is required for sing-functions
