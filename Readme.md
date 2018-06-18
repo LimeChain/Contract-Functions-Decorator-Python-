@@ -14,7 +14,7 @@ Usage\:
     
   * Usage of constant function:
     
-   - Empty-params
+   - Empty-params .
     result = contract.getSmth();
     print(result) => smth
 
