@@ -6,6 +6,13 @@ ontract_instance (main file) is used for building ethereum contract functions in
 You can call sign-functions without signing them manually  
 
 ---
+
+#### Installation  
+ ```
+ pip install ethfuncdecorator
+ ```
+
+---
 **It is only functions-decorator.** 
 
 **Note!** Call back function is not included 
@@ -13,7 +20,7 @@ You can call sign-functions without signing them manually
 
 Usage:
 
- ```
+ ```python
  contract = ContractInstance('contract_json_file_path', contract_address, eth, web3)
  ```
 
