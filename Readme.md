@@ -1,9 +1,11 @@
 
-### contract_instance (main file) is used for building ethereum contract functions in an easy way
-### ContractInstance class is a decorator for web3 contract functions
+#### Overview
+ContractInstance class is a decorator for web3 contract functions
+contract_instance (main file) is used for building ethereum contract functions in an easy way
 
-### You can call sign-functions without signing them manually
+You can call sign-functions without signing them manually
 
+---
 **It is only functions-decorator.** 
 
 **Note!** Call back function is not included 
