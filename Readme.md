@@ -50,7 +50,7 @@ contract.addData(data, private_key="your private key", value=your value, gas=you
 
 **If you do not specify a tag, the default values are:** 
 <div>
-    &nbsp;&nbsp;&nbsp;&nbsp;Gas = 5x00000  
+    &nbsp;&nbsp;&nbsp;&nbsp;Gas = 500000  
     &nbsp;&nbsp;&nbsp;&nbsp;Value = 0  
 </div>
 <br>
