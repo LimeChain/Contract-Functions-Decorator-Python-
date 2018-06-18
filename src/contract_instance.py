@@ -2,6 +2,11 @@ from util import retrieve_abi_from_file, checksum_address
 from web3.contract import ContractFunction
 from config import CHAIN_ID, GAS, GAS_PRICE, VALUE
 
+# ContractInstance is used for call contract functions in an easier way and if need to sign them
+# It is only functions-decorator. 
+
+# Call back function is not included
+
 class ContractInstance:
 
     def __init__(self, contract_json, contract_address, eth, web3):

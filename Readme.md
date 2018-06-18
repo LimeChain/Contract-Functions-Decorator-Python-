@@ -68,4 +68,8 @@ contract.addData(data, private_key="your private key", value=your value, gas=you
 contract.set_network_parameters(yourChainId, yourGasPrice)
 ```
 
+<<<<<<< HEAD
 2) If you want to change them at global level (each contract instance to have than on init), you could go in config.py and change them there
+=======
+2) If you want to change them at global level (each contract instance to have than on init), you could go in config.py and change them there
+>>>>>>> d3b3afaeec02362fa1d30ab6f42a890da8d2cb8d
