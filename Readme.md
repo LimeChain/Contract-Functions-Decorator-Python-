@@ -24,7 +24,7 @@ Usage:
      print(result) => smth
      ```
  
- - Non empty-params  
+  - Non empty-params  
  
      ```python
      result = contract.calcSum(1, 2);  
