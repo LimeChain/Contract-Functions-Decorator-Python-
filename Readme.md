@@ -11,14 +11,18 @@ You can call sign-functions without signing them manually
 
 Usage:
 
- ```contract = ContractInstance('contract_json_file', contract_address, eth, web3)```
+ ```
+ contract = ContractInstance('contract_json_file', contract_address, eth, web3)
+ ```
 
 * Usage of constant function:  
 
   - Empty-params  
   
-     ```result = contract.getSmth();  
-     print(result) => smth```
+     ```python
+     result = contract.getSmth();  
+     print(result) => smth
+     ```
  
  - Non empty-params  
  
@@ -27,16 +31,20 @@ Usage:
      
  * Usage of sing-function:  
 
-  - Empty-params  
+   - Empty-params  
 
-   ``result = contract.addData(data, private_key="your private key");   
-   print(result) => transaction hash``  
+    ```python
+    result = contract.addData(data, private_key="your private key");   
+    print(result) => transaction hash
+    ```  
    
  **Note!** Private key is required for sing-functions
 
 If you want to specify a certain gas or your function is payable, add:  
 
-```contract.addData(data, private_key="your private key", value=your value, gas=your gas);```
+```python
+contract.addData(data, private_key="your private key", value=your value, gas=your gas);
+```
 
 If you do not specify a tag, the default values are:  
     Gas = 5x00000  
