@@ -33,14 +33,14 @@ Usage:
      print(result) => sum
      ```  
      
- * Usage of sing-function:  
+ * Usage of sign-function:  
 
     ```python
     result = contract.addData(data, private_key="your private key");   
     print(result) => transaction hash
     ```  
    
- **Private key is required for sing-functions**
+ **Private key is required for sign-functions**
 
 If you want to specify a certain gas or your function is payable, add:  
 
