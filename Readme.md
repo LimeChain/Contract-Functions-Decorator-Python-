@@ -46,9 +46,11 @@ If you want to specify a certain gas or your function is payable, add:
 contract.addData(data, private_key="your private key", value=your value, gas=your gas);
 ```
 
-If you do not specify a tag, the default values are:  
-    Gas = 5x00000  
-    Value = 0  
+**If you do not specify a tag, the default values are:** 
+<div>
+    &nbsp;&nbsp;&nbsp;&nbsp;Gas = 5x00000  
+    &nbsp;&nbsp;&nbsp;&nbsp;Value = 0  
+</div>
 
 **The default network properties are:**  
 <div class="footer">
