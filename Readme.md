@@ -33,14 +33,12 @@ Usage:
      
  * Usage of sing-function:  
 
-   - Empty-params  
-
     ```python
     result = contract.addData(data, private_key="your private key");   
     print(result) => transaction hash
     ```  
    
- **Note!** Private key is required for sing-functions
+ **Private key is required for sing-functions**
 
 If you want to specify a certain gas or your function is payable, add:  
 
@@ -53,8 +51,8 @@ If you do not specify a tag, the default values are:
     Value = 0  
 
 **The default network properties are:**  
-    Chain id = 4 (Rinkeby)  
-    Gas_price = 20gwei
+⇥Chain id = 4 (Rinkeby)  
+⇥Gas_price = 20gwei
 
 ---
 1) If you want to change them at instance level, you could do:
