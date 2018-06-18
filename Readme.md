@@ -51,8 +51,11 @@ If you do not specify a tag, the default values are:
     Value = 0  
 
 **The default network properties are:**  
-⇥Chain id = 4 (Rinkeby)  
-⇥Gas_price = 20gwei
+<div class="footer">
+    &nbsp;&nbsp;&nbsp;&nbsp;Chain id = 4 (Rinkeby)  
+    &nbsp;&nbsp;&nbsp;&nbsp;Gas_price = 20gwei
+</div>
+
 
 ---
 1) If you want to change them at instance level, you could do:
