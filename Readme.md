@@ -51,7 +51,7 @@ contract.addData(data, private_key="your private key", value=your value, gas=you
     &nbsp;&nbsp;&nbsp;&nbsp;Gas = 5x00000  
     &nbsp;&nbsp;&nbsp;&nbsp;Value = 0  
 </div>
-
+<br>
 
 **The default network properties are:**  
 <div class="footer">
