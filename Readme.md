@@ -9,6 +9,7 @@ You can call sign-functions without signing them manually
 **Note!** Call back function is not included 
 
 Usage:   
+
     contract = ContractInstance('contract_json_file', contract_address, eth, web3)
     
     *Usage of constant function:
