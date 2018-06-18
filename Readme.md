@@ -28,8 +28,8 @@ Usage\:
   * Usage of sing-function:     
     
     - Empty-params   
-   
-      'result = contract.addData(data, private_key="your private key");
+    
+      'result = contract.addData(data, private_key="your private key");   
       print(result) => transaction hash'   
 
        
