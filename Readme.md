@@ -14,17 +14,20 @@ Usage\:
     
   * Usage of constant function:
     
-   - Empty-params .
+   - Empty-params 
+   
     result = contract.getSmth();
     print(result) => smth
 
-   - Non empty-params 
+   - Non empty-params
+   
     result = contract.calcSum(1, 2);
     print(result) => sum
 
-   * Usage of sing-function:
+  * Usage of sing-function:
     
-   -Empty-params
+   - Empty-params
+   
     result = contract.addData(data, private_key="your private key");
     print(result) => transaction hash
 
