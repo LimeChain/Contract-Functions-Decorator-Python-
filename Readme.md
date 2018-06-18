@@ -29,21 +29,21 @@ Usage:
 
   - Empty-params  
 
-   ```result = contract.addData(data, private_key="your private key");   
-   print(result) => transaction hash```  
+   ``result = contract.addData(data, private_key="your private key");   
+   print(result) => transaction hash``  
    
  **Note!** Private key is required for sing-functions
 
-If you want to specify a certain gas or your function is payable, add: 
+If you want to specify a certain gas or your function is payable, add:  
 
 ```contract.addData(data, private_key="your private key", value=your value, gas=your gas);```
 
-If you do not specify a tag, the default values are:
-   Gas = 5x00000
-   Value = 0
+If you do not specify a tag, the default values are:  
+   Gas = 5x00000  
+   Value = 0  
 
-**The default network properties are:**
-   Chain id = 4 (Rinkeby)
+**The default network properties are:**  
+   Chain id = 4 (Rinkeby)  
    Gas_price = 20gwei
 
 1) If you want to change them at instance level, you could do:
