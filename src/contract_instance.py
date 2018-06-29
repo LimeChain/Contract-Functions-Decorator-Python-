@@ -62,7 +62,7 @@ class ContractInstance:
             return  _nonconstant_funcation
 
     def __isConstantFunction(self, func):
-        return self.__contract_functions[func.__name__]
+        return self.__contract_functions[func.fn_name]
 
     def __invokeConstantFunction(self, func, funcParams):
         result = func(*funcParams).call()
